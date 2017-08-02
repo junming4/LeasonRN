@@ -26,6 +26,3 @@ npm install react-native-scrollable-tab-view --save
 一运行就报错 :react.children.only expected to receive a single react element child
     ##TabNavigator.Item 或者 TabBarIOS.Item 必须有且只有一个组件，说白了就是需要有子组件的存在，并且只存在一个
 
-
-
-# 问题什么叫RN ?
