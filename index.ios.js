@@ -25,6 +25,9 @@ import PropsDemo from './Demo/PropsDemo'
 import ListViewDemo from './Demo/ListViewDemo'
 import ActivityDemo from './Demo/ActivityDemo'
 import FetchDemo from './Demo/FetchDemo'
+import AlertDemo from './Demo/AlertDemo'
+import ButtonDemo from './Demo/ButtonDemo'
+import DatePickerDemo from './Demo/DatePickerDemo'
 
 export default class MyItem extends Component {
   render() {
@@ -66,4 +69,4 @@ const styles = StyleSheet.create({
 
 
 
-AppRegistry.registerComponent('MyItem', () => ActivityDemo);
+AppRegistry.registerComponent('MyItem', () => DatePickerDemo);
