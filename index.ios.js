@@ -28,6 +28,9 @@ import FetchDemo from './Demo/FetchDemo'
 import AlertDemo from './Demo/AlertDemo'
 import ButtonDemo from './Demo/ButtonDemo'
 import DatePickerDemo from './Demo/DatePickerDemo'
+import FlatListDemo from './Demo/FlatListDemo'
+import ModalDemo from './Demo/ModalDemo'
+import NavigatorIOSDemo from './Demo/NavigatorIOSDemo'
 
 export default class MyItem extends Component {
   render() {
@@ -69,4 +72,4 @@ const styles = StyleSheet.create({
 
 
 
-AppRegistry.registerComponent('MyItem', () => DatePickerDemo);
+AppRegistry.registerComponent('MyItem', () => NavigatorIOSDemo);
