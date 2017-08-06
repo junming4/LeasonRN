@@ -33,6 +33,10 @@ import ModalDemo from './Demo/ModalDemo'
 import NavigatorIOSDemo from './Demo/NavigatorIOSDemo'
 import ProgressViewIOSDemo from './Demo/ProgressViewIOSDemo'
 import RefreshableListDemo from './Demo/RefreshableListDemo'
+import SliderDemo from './Demo/SliderDemo'
+import SwitchDemo from './Demo/SwitchDemo'
+import TabBarIOSDemo from './Demo/TabBarIOSDemo'
+
 
 export default class MyItem extends Component {
   render() {
@@ -74,4 +78,4 @@ const styles = StyleSheet.create({
 
 
 
-AppRegistry.registerComponent('MyItem', () => RefreshableListDemo);
+AppRegistry.registerComponent('MyItem', () => TabBarIOSDemo);
