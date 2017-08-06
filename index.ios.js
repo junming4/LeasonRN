@@ -31,6 +31,8 @@ import DatePickerDemo from './Demo/DatePickerDemo'
 import FlatListDemo from './Demo/FlatListDemo'
 import ModalDemo from './Demo/ModalDemo'
 import NavigatorIOSDemo from './Demo/NavigatorIOSDemo'
+import ProgressViewIOSDemo from './Demo/ProgressViewIOSDemo'
+import RefreshableListDemo from './Demo/RefreshableListDemo'
 
 export default class MyItem extends Component {
   render() {
@@ -72,4 +74,4 @@ const styles = StyleSheet.create({
 
 
 
-AppRegistry.registerComponent('MyItem', () => NavigatorIOSDemo);
+AppRegistry.registerComponent('MyItem', () => RefreshableListDemo);
